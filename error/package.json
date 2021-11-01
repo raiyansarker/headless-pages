@@ -1,0 +1,16 @@
+{
+  "name": "error",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "npx tailwindcss -o ./public/css/bundle.css -i ./public/css/tailwind.css",
+    "watch": "npx tailwindcss -o ./public/css/bundle.css -i ./public/css/tailwind.css -w"
+  },
+  "author": "Raiyan Sarker",
+  "license": "MIT",
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.3.11",
+    "tailwindcss": "^2.2.19"
+  }
+}
